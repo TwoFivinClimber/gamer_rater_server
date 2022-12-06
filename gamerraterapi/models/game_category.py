@@ -1,4 +1,4 @@
-''''category model'''
+''''Game_Category model'''
 from django.db import models
 from .category import Category
 from .game import Game

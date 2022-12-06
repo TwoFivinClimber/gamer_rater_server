@@ -1,4 +1,4 @@
-'''photo class'''
+'''Photo class'''
 from django.db import models
 from .game import Game
 from .player import Player
