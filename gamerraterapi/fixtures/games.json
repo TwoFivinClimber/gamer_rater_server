@@ -1,3 +1,41 @@
 [
-
+  {
+    "model": "gamerraterapi.game",
+    "pk": 1,
+    "fields": {
+      "title": "Magic The Gathering",
+      "description": "A standard game of Magic involves two or more players who are engaged in a battle acting as powerful wizards, known as Planeswalkers.",
+      "designer": "Richard Garfield",
+      "year_released": "1993-01-01",
+      "number_of_players": 4,
+      "play_time": 90,
+      "rec_age": 5
+    }
+  },
+  {
+    "model": "gamerraterapi.game",
+    "pk": 2,
+    "fields": {
+      "title": "California Rummy",
+      "description": "Shanghai Rummy is played with multiple decks of 54 standard playing cards, including the Jokers. Two decks are required for a game of up to four players.",
+      "designer": "C. Graham Baker",
+      "year_released": "1883-07-16",
+      "number_of_players": 8,
+      "play_time": 180,
+      "rec_age": 12
+    }
+  },
+  {
+    "model": "gamerraterapi.game",
+    "pk": 3,
+    "fields": {
+      "title": "Mr. Natural",
+      "description": "Mr. Natural is a Push Your Luck dice game for as many players as can sit around a table, played with six six-sided dice, in which the object is being the first player to score 10,000 points.",
+      "designer": "Unknown",
+      "year_released": "1967-04-23",
+      "number_of_players": 8,
+      "play_time": 60,
+      "rec_age": 8
+    }
+  }
 ]

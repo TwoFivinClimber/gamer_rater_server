@@ -1,0 +1,42 @@
+[
+  {
+    "model": "gamerraterapi.gamecategory",
+      "pk": 1,
+      "fields": {
+        "game_id": 1,
+        "category_id": 5
+      }
+  },
+  {
+    "model": "gamerraterapi.gamecategory",
+      "pk": 2,
+      "fields": {
+        "game_id": 1,
+        "category_id": 10
+      }
+  },
+  {
+    "model": "gamerraterapi.gamecategory",
+      "pk": 3,
+      "fields": {
+        "game_id": 2,
+        "category_id": 3
+      }
+  },
+  {
+    "model": "gamerraterapi.gamecategory",
+      "pk": 4,
+      "fields": {
+        "game_id": 2,
+        "category_id": 1
+      }
+  },
+  {
+    "model": "gamerraterapi.gamecategory",
+      "pk": 5,
+      "fields": {
+        "game_id": 3,
+        "category_id": 2
+      }
+  }
+]
