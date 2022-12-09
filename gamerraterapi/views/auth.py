@@ -38,7 +38,7 @@ def register_user(request):
       request -- The full HTTP request object
     '''
 
-    # Now save the user info in the levelupapi_gamer table
+    # Now save the user info in the gamerraterapi_gamer table
     player = Player.objects.create(
         bio=request.data['bio'],
         uid=request.data['uid'],

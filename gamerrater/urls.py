@@ -17,11 +17,12 @@ from django.conf.urls import include
 from rest_framework import routers
 from django.contrib import admin
 from django.urls import path
-from gamerraterapi.views import check_user, register_user, GameView, GameCategoryView
+from gamerraterapi.views import check_user, register_user, GameView, GameCategoryView, CategoryView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'games', GameView, 'game')
 router.register(r'gamecategories', GameCategoryView, 'gamecategory')
+router.register(r'categories', CategoryView, 'category')
 
 urlpatterns = [
     path('register', register_user),
